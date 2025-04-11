@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="متجر مجوهرات فاخرة - اكتشف مجموعتنا الفريدة من الخواتم، القلادات والأساور" />
+  <title>مجموعة اليوم  | متجر المجوهرات الفاخرة</title>
+
+  <!-- الأيقونات وخط Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- الأنماط -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- أنماط إضافية بسيطة -->
+  <style>
+    :root {
+      --primary-color: #d4af37;
+      --secondary-color: #1a1a1a;
+      --light-color: #f8f5f2;
+      --white: #fff;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: var(--light-color);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .cart-count {
+      background: crimson;
+      color: #fff;
+      border-radius: 50%;
+      padding: 2px 6px;
+      font-size: 12px;
+      position: relative;
+      top: -10px;
+
+      right: -5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الشريط العلوي -->
+  <nav class="main-nav">
+    <div class="container">
+        <!-- الشعار الجديد -->
+        <div class="nav-brand">
+            <a href="index.html">
+                <img src="images/WhatsApp Image 2025-04-11 à 01.34.28_fac73cf0.jpg" alt="قنت الموقع" class="logo">
+                <!-- إذا أردت نصًا بجانب الشعار:
+                <span>قنت الموقع</span>
+                -->
+            </a>
+        </div>
+
+        <!-- باقي عناصر التنقل -->
+        <ul class="nav-links">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">المنتجات</a></li>
+            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+
+        <!-- أيقونات البحث والسلة -->
+        <div class="nav-actions">
+            <div class="search-btn"><i class="fas fa-search"></i></div>
+            <div class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+  <!-- البانر الرئيسي -->
+  <header class="hero">
+    <div class="container">
+      <h1>مجموعة اليوم المفقود</h1>
+      <p class="subtitle">خواتم، مجوهرات مناسبات، أقراط والمزيد من المجموعات الفاخرة</p>
+      <a href="#products" class="cta-button">اكتشف المجموعة</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- المنتجات -->
+<section id="products" class="section">
+    <div class="container">
+      <h2 class="section-title">منتجاتنا المميزة</h2>
+  
+      <!-- أزرار التصفية -->
+      <div class="collection-tabs">
+        <button class="tab-btn active" data-filter="all">الكل</button>
+        <button class="tab-btn" data-filter="rings">خواتم</button>
+        <button class="tab-btn" data-filter="necklaces">قلادات</button>
+        <button class="tab-btn" data-filter="earrings">أقراط</button>
+      </div>
+  
+      <!-- شبكة المنتجات -->
+      <div class="products-grid featured-products">
+        <div class="product-card" data-category="rings">
+          <img src="images/faty.jpg" alt="خاتم ذهبي فاخر" class="product-image" />
+          <h3 class="product-name">خاتم ذهبي فاخر</h3>
+          <p class="product-price">1200 درهم</p>
+          <button class="add-to-cart">أضف إلى السلة</button>
+        </div>
+
+        <div class="product-card" data-category="necklaces">
+          <img src="images/3e45fb210f601cee5e96df3f8c3c5da2.jpg" alt="قلادة ألماس" class="product-image" />
+          <h3 class="product-name">قلادة ألماس</h3>
+          <p class="product-price">1800 درهم</p>
+          <button class="add-to-cart">أضف إلى السلة</button>
+        </div>
+
+        <div class="product-card" data-category="necklaces">
+            <img src="images/fda68c5189f7cd37f044e201a77acc1e.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">1800 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+<div class="product-card" data-category="necklaces">
+          <img src="images/01ebb37824fdd53e5c8d82744d7ff1d1.jpg" alt="قلادة ألماس" class="product-image" />
+          <h3 class="product-name">قلادة ألماس</h3>
+          <p class="product
+          -price">1800 درهم</p>
+          <button class="add-to-cart">أضف إلى السلة</button>
+        </div>
+
+        <div class="product-card" data-category="necklaces">
+            <img src="images/39717cf3f406f7147163d6b21c0ab3dd.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">1800 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/3e45fb210f601cee5e96df3f8c3c5da2.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">220درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/6b001d1fc894d83a1bb9ff229094c92e.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">280 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/7065d768a6fa3a23f7055df5a255a313.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">199 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/222989eac4afa40edf70c57ded5d34d5.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">219 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/a5b32edfe55fb21d2510caa61b3c2a6c.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">159درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/f303044807168c64128835d8d676fd35.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">278 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/hero.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">299 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/96a6bb07498462f4c3465fb562345207.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">199 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/84ef43816b42efb1b42b85cdba853c86.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">325 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/0922c338575af2d2ec6f592ad0edac2b.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">129 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/e0c96c8e2a84e9db206292f4796c3c2b.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">180 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/2a8b99fd29dc5a53a0b23925fbf2ef3d.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">180درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/2942da1741b56f3c5509662c62a3d67f.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">279درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/642d01e03bb3e67cd6834aab2f96def5.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">174درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/84ef43816b42efb1b42b85cdba853c86.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">285 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/2c5c34a2acd971a94282ad694012a320.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">118 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/1d136b8158cc38ce83c9ab4b8ae00060.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">209 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/463da0b4f3cd7539053762d4d1653562.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">249 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/b.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">260 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/z.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">299 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/q.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">186 MAD</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/x.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">250 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/faty.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">164 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/a.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">214 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+          <div class="product-card" data-category="necklaces">
+            <img src="images/e.jpg" alt="قلادة ألماس" class="product-image" />
+            <h3 class="product-name">قلادة ألماس</h3>
+            <p class="product-price">144 درهم</p>
+            <button class="add-to-cart">أضف إلى السلة</button>
+          </div>
+
+        <div class="product-card" data-category="earrings">
+          <img src="images/fatima.jpg" alt="أقراط عصرية" class="product-image" />
+          <h3 class="product-name">أقراط عصرية</h3>
+          <p class="product-price">230 درهم</p>
+          <button class="add-to-cart">أضف إلى السلة</button>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- الفئات -->
+    <section id="categories" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">الفئات الأكثر شيوعاً</h2>
+        <div class="popular-categories">
+          <!-- سيتم توليد الفئات ديناميكياً -->
+        </div>
+      </div>
+    </section>
+
+    <!-- المجموعات -->
+    <section id="collections" class="section">
+      <div class="container">
+        <div class="collection-tabs">
+          <button class="tab-btn active" data-tab="trendy">المجموعة العصرية</button>
+          <button class="tab-btn" data-tab="autumn">مجموعة الخريف</button>
+        </div>
+
+        <div class="tab-content active" id="trendy">
+          <h3>المجموعة العصرية</h3>
+          <p>اختر صناديقك مع أحدث التفاصيل لدينا</p>
+          <div class="collection-grid"></div>
+        </div>
+
+        <div class="tab-content" id="autumn">
+          <h3>مجموعة الخريف</h3>
+          <p>اختر صناديقك مع رسائلنا الخريفية</p>
+          <div class="collection-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- المتاجر -->
+    <section id="stores" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">ابحث عن متاجر المجوهرات بالقرب منك</h2>
+        <div class="store-locator">
+          <div class="search-box">
+          </div>
+          <div class="stores-map">
+            <!-- يمكن إضافة خريطة تفاعلية هنا -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- النشرة البريدية -->
+    <section class="newsletter">
+      <div class="container">
+        <h3>اشترك في نشرتنا البريدية</h3>
+        <p>كن أول من يعرف عن أحدث المجموعات والعروض الخاصة</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="بريدك الإلكتروني" required />
+          <button type="submit" class="cta-button">اشتراك</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- الفوتر -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>مجموعة اليوم المفقود</h4>
+          <p>متجرنا يقدم أجود أنواع المجوهرات الفاخرة بأسعار تنافسية وخدمة عملاء مميزة.</p>
+        </div>
+        <div class="footer-col">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="#">الصفحة الرئيسية</a></li>
+            <li><a href="#products">المنتجات</a></li>
+            <li><a href="#collections">المجموعات</a></li>
+            <li><a href="#stores">الفروع</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>اتصل بنا</h4>
+          <ul class="contact-info">
+            <li><i class="fas fa-phone"></i> الرقم العام: 0775865725</li>
+            <li><i class="fas fa-envelope"></i> houssinechouyakh55@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Morocco</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>تابعنا</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i> hucin_ee</a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i> houssine ch</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 مجموعة اليوم المفقود. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- نافذة المعاينة السريعة -->
+  <div class="quick-view-modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img class="main-image" src="" alt="معاينة المنتج" />
+      <h2 class="product-title"></h2>
+      <p class="product-description"></p>
+      <div class="product-price"></div>
+      <input type="number" class="quantity-input" value="1" min="1" />
+      <button class="add-to-cart">أضف إلى السلة</button>
+    </div>
+  </div>
+
+  <!-- سكريبت الجافاسكريبت -->
+  <script src="js/script.js"></script>
+</body>
+</html>
